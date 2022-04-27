@@ -8,7 +8,6 @@ public class TestRemoveRuns {
     public void testRemoveRuns() {
         List<Integer> empty = List.of();
         assertEquals(empty, RemoveRuns.removeRuns(empty));
-
-        //  assertEquals(List.of(87), RemoveRuns.removeRuns(List.of(87)));
+        assertEquals(List.of(87), RemoveRuns.removeRuns(List.of(87)));
     }
 }
